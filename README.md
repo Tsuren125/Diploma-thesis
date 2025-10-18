@@ -13,23 +13,41 @@ API-тесты для сервиса ReqRes
 ⚙️ Структура проекта
 
 autotests_project/
+
 ├── tests/
-│   ├── test_ui.py          # UI-тесты (Selenium)
+
+│   ── test_ui.py          # UI-тесты (Selenium)
+
 │   ├── test_api.py         # API-тесты (Requests)
+
 │   ├── conftest.py         # Фикстуры, инициализация драйвера
+
 │
+
 ├── pages/                  # Page Object классы для UI-тестов
+
 │   ├── base_page.py
+
 │   ├── login_page.py
+
 │   ├── secure_page.py
+
 │
+
 ├── data/
+
 │   ├── test_data.py        # Тестовые данные и учётные записи
+
 │   ├── config.py           # Настройки окружения (URL и пути)
+
 │
+
 ├── requirements.txt        # Зависимости проекта
+
 ├── README.md               # Этот файл
+
 ├── .env.example            # Пример переменных окружения
+
 └── pytest.ini              # Маркеры pytest
 
 🔧 Установка и запуск
