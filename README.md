@@ -16,7 +16,7 @@ autotests_project/
 
 ├── tests/
 
-│   ── test_ui.py          # UI-тесты (Selenium)
+│   ├── test_ui.py          # UI-тесты (Selenium)
 
 │   ├── test_api.py         # API-тесты (Requests)
 
