@@ -12,7 +12,7 @@ API-тесты для сервиса ReqRes
 
 ⚙️ Структура проекта
 
-real_autotests_project/
+autotests_project/
 ├── tests/
 │   ├── test_ui.py          # UI-тесты (Selenium)
 │   ├── test_api.py         # API-тесты (Requests)
